@@ -1,0 +1,93 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width : 992px) {
+    .container {
+        padding: 0 21px;
+    }
+}
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width : 768px) {
+    
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 50px;
+    }
+    
+    .logo {
+        margin-top: 15px;
+    }
+    
+    .logo img {
+        height: 20px;
+    }
+    
+    .top-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        padding: 12px 0;
+        margin-top: 0;
+        background-color: #262626;
+    }
+    
+    .top-menu li {
+        float: none;
+        margin-left: 0;
+    }
+    
+    .top-menu a {
+        display: block;
+        padding: 12px 15px;
+        border-left: 3px solid transparent;
+    }
+    
+    .top-menu a:hover,
+    .top-menu .active {
+        background-color: #2a2a2a;
+        border-left: 3px solid #ff6760;
+    }
+    
+    .touch-menu {
+        display: block;
+        float: right;
+    }
+    
+    .service-item {
+        width: 50%;
+        margin-bottom: 24px;
+    }
+    
+}
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width : 480px) {
+    
+    .service-item {
+        width: 100%;
+    }
+    
+    .portfolio .btn-s {
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    
+    .footer-contact span {
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    .i-phone {
+        margin-left: 0;
+    }
+    
+}
