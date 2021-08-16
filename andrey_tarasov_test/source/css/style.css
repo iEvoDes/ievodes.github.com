@@ -210,7 +210,7 @@ ul, ol {
     height: 126px;
     top: 79px;
     left: 48.5px;
-    background-image: url(/img/price_house.png); }
+    background-image: url(../img/price_house.png); }
   .price__plate p {
     font-weight: 700;
     font-size: 20px;
@@ -362,7 +362,7 @@ ul, ol {
   content: "";
   width: 29px;
   height: 29px;
-  background-image: url(/img/star.png);
+  background-image: url(../img/star.png);
   margin-right: 12px; }
   .reviews__slider-star:last-child {
     margin-right: 0; }
