@@ -1,0 +1,16 @@
+@import
+  "vendors/fonts.scss",
+  "vendors/mixin.scss";
+
+@import
+  "general/body.scss",
+  "general/breakpoints.scss";
+
+@import
+  "blocks/header.scss",
+  "blocks/description.scss",
+  "blocks/questions.scss",
+  "blocks/price.scss",
+  "blocks/reviews-slider.scss",
+  "blocks/work.scss",
+  "blocks/footer.scss";

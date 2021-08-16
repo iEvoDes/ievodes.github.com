@@ -1,0 +1,18 @@
+.header {
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.header-logo {
+  padding: 10px 0;
+}
+
+@media (min-width: 768px) {
+  .header-logo {
+    padding: 20px 0;
+  }
+
+  .header-logo img {
+    width: 168px;
+    height: 56px;
+  }
+}
